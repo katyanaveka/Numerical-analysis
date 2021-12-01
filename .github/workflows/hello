@@ -1,6 +1,6 @@
 name: HelloAction
 on: 
-  push
+  pull
 jobs:
   Hello:
     runs-on: ubuntu-latest
