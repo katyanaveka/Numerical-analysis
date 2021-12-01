@@ -7,7 +7,7 @@ jobs:
   HelloAction:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "🕸 The job was automatically triggered by a ${{ github.event_name }} event." > Readme.md
+      - run: echo "🕸 The job was automatically triggered by a ${{ github.event_name }} event." > README.md
       - if: ${{ env.DAY_OF_WEEK == 'Mon' }}
         run: echo "🕸 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "🍏 This job's status is ${{ job.status }}."
