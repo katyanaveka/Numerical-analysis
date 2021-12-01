@@ -1,8 +1,6 @@
 name: HelloAction
 on: 
-  push:
-    branches:
-      - main
+  push
 jobs:
   Hello:
     runs-on: ubuntu-latest
