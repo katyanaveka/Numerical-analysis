@@ -4,8 +4,8 @@ on:
     branches:
       - main
 jobs:
-  HelloAction
-  steps:
+  Hello:
+    runs-on: ubuntu-latest
     - run: echo "🕸 The job was automatically triggered by a ${{ github.event_name }} event." > README.md
     - if: ${{ env.DAY_OF_WEEK == 'Mon' }}
       run: echo "🕸 The job was automatically triggered by a ${{ github.event_name }} event."
